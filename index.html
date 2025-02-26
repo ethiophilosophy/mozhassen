@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Mohammed Zeinu Hassen</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Mohammed Zeinu Hassen's Personal Website</h1>
+    </header>
+
+    <nav>
+        <button class="hamburger">☰</button>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="community.html">Community Service</a></li>
+            <li><a href="leadership.html">Leadership Experience</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Home</h2>
+        <p>Welcome! I am Mohammed Zeinu Hassen, a lecturer of Philosophy at Addis Ababa Science and Technology University. Explore this website to learn more about my academic journey, research interests, community involvement, and leadership roles.</p>
+        <p>“Two things awe me most, the starry sky above me and the moral law within me” – Immanuel Kant</p>
+    </section>
+
+    <footer>
+        <p>© 2025 Mohammed Zeinu Hassen. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            document.querySelector('.menu').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
